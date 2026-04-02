@@ -1,0 +1,15 @@
+:root {
+    /* Silver&Flame Colors */
+    --silver: #dcdcde;
+    --grey: #a3a5a8;
+    --lightblue: #b3cbe0;
+    --blue: #5e84b1;
+    --darkblue: #153960;
+
+    /* Krovna Colors */
+    
+}
+
+* {
+    box-sizing: border-box;
+}
