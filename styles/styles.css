@@ -13,3 +13,34 @@
 * {
     box-sizing: border-box;
 }
+
+.navbar {
+    background-color: var(--silver);
+    color: var(--darkblue);
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    padding-right: 25px;
+}
+
+.nav p a:visited, .nav p a:hover {
+    color: var(--darkblue);
+    text-decoration: underline;
+}
+
+.nav p a {
+    color: var(--darkblue);
+    text-decoration: none;
+}
