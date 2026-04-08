@@ -9,16 +9,19 @@
     /* Krovna Colors */
     
     /* Website Colors */
-    --black: #000000;
     --white: #ffffff;
+    --darkpurple: #110015;
 }
 
 * {
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--darkpurple);
+}
+
 .navbar {
-    background-color: var(--black);
     color: var(--white);
     margin-top: 0%;
     display: flex;
