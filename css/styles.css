@@ -7,13 +7,13 @@
     --darkblue: #153960;
 
     /* Krovna Colors */
-    --orange: #FF8B04;
-    --darkgold: #B1863C;
     
     /* Website Colors */
     --black: #000000;
     --white: #ffffff;
     --darkpurple: #110015;
+    --orange: #FF8B04;
+    --darkgold: #B1863C;
 }
 
 * {
@@ -53,6 +53,27 @@ body {
 .nav p a:visited, .nav p a:hover {
     color: var(--darkgold);
     text-decoration: underline;
+}
+
+.heroimg {
+position: relative;
+}
+
+.heroimg img {
+display: block;
+width: 100%;
+height: auto;
+max-height: 80vh;
+object-fit: cover;
+}
+
+.heroimg h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--black);
+    font-size: 36px;
 }
 
 h1 {
