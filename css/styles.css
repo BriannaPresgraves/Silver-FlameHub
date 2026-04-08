@@ -8,6 +8,9 @@
 
     /* Krovna Colors */
     
+    /* Website Colors */
+    --black: #000000;
+    --white: #ffffff;
 }
 
 * {
@@ -15,26 +18,45 @@
 }
 
 .navbar {
-    background-color: var(--silver);
-    color: var(--darkblue);
+    background-color: var(--black);
+    color: var(--white);
     margin-top: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.navbar h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+
 .nav {
     display: flex;
     gap: 60px;
-    padding-right: 25px;
-}
-
-.nav p a:visited, .nav p a:hover {
-    color: var(--darkblue);
-    text-decoration: underline;
+    padding-right: 40px;
+    font-size: 20px;
 }
 
 .nav p a {
-    color: var(--darkblue);
+    color: var(--white);
     text-decoration: none;
+}
+
+.nav p a:visited, .nav p a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
 }
