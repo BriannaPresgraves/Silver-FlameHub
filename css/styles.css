@@ -7,6 +7,8 @@
     --darkblue: #153960;
 
     /* Krovna Colors */
+    --orange: #FF8B04;
+    --darkgold: #B1863C;
     
     /* Website Colors */
     --black: #000000;
@@ -49,7 +51,7 @@ body {
 }
 
 .nav p a:visited, .nav p a:hover {
-    color: var(--white);
+    color: var(--darkgold);
     text-decoration: underline;
 }
 
