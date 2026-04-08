@@ -1,0 +1,40 @@
+:root {
+    /* Silver&Flame Colors */
+    --silver: #dcdcde;
+    --grey: #a3a5a8;
+    --lightblue: #b3cbe0;
+    --blue: #5e84b1;
+    --darkblue: #153960;
+
+    /* Krovna Colors */
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: var(--silver);
+    color: var(--darkblue);
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    padding-right: 25px;
+}
+
+.nav p a:visited, .nav p a:hover {
+    color: var(--darkblue);
+    text-decoration: underline;
+}
+
+.nav p a {
+    color: var(--darkblue);
+    text-decoration: none;
+}
