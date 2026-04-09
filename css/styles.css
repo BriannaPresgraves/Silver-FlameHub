@@ -32,10 +32,20 @@ body {
     align-items: center;
 }
 
-.navbar h1 {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.navbar .teamlogo {
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 40px;
+    height: 120px;
+    width: auto;
+}
+
+.navbar .teamtextlogo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 80px;
+    width: auto;
+    margin-left: -750px;
 }
 
 .nav {
@@ -67,13 +77,13 @@ max-height: 80vh;
 object-fit: cover;
 }
 
-.heroimg h1 {
+.heroimg .krovnalogo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--black);
-    font-size: 36px;
+    width: 35%;
+    height: auto;
 }
 
 h1 {
