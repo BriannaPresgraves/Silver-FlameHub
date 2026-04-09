@@ -11,6 +11,7 @@
     /* Website Colors */
     --black: #000000;
     --white: #ffffff;
+    --offwhite: #EAEAEA;
     --darkpurple: #110015;
     --orange: #FF8B04;
     --darkgold: #B1863C;
@@ -25,7 +26,7 @@ body {
 }
 
 .navbar {
-    color: var(--white);
+    color: var(--offwhite);
     margin-top: 0%;
     display: flex;
     justify-content: space-between;
@@ -67,6 +68,7 @@ body {
 
 .heroimg {
 position: relative;
+margin-bottom: 56px;
 }
 
 .heroimg img {
@@ -88,12 +90,15 @@ object-fit: cover;
 
 h1 {
     font-size: 36px;
+    color: var(--offwhite);
 }
 
 h2 {
     font-size: 28px;
+    color: var(--offwhite);
 }
 
 p {
     font-size: 16px;
+    color: var(--offwhite);
 }
