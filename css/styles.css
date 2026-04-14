@@ -117,6 +117,7 @@ object-fit: cover;
 .trailer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
     margin-left: 32px;
     margin-right: 32px;
     align-items: center;
@@ -133,6 +134,7 @@ object-fit: cover;
 
 .trailercontent {
     padding: 20px;
+    border-radius: 8px;
     color: var(--white);
     text-align: left;
     display: flex;
@@ -152,7 +154,7 @@ object-fit: cover;
 .teammembers {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
+    gap: 40px;
     margin-left: 32px;
     margin-top: 56px;
     margin-right: 32px;
@@ -160,10 +162,38 @@ object-fit: cover;
 }
 
 .teammembers img {
-    padding: 20px;
     text-align: center;
     width: 100%;
     height: auto;
     max-width: 300px;
     object-fit: cover;
+}
+
+.membercard {
+    text-align: center;
+    padding: 20px;
+}
+
+.membercard h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.membercard h3 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.membercard button {
+    background-color: var(--darkgold);
+    color: var(--black);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.membercard button:hover {
+    background-color: #D4AF37;
+    color: var(--black);
 }
