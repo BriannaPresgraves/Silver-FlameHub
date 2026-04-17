@@ -231,7 +231,6 @@ object-fit: cover;
 .downloadheroimg p {
     max-width: 800px;
     color: var(--black);
-    font-size: 20px;
 }
 
 .downloadheroactions {
