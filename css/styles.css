@@ -102,21 +102,26 @@ button:hover {
     color: var(--black);
 }
 
+footer {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
     /* Index Page CSS */
 
 .heroimg {
-position: relative;
-margin-bottom: 56px;
-margin-left: 0%;
-margin-right: 0%;
+    position: relative;
+    margin-bottom: 56px;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .heroimg img {
-display: block;
-width: 100%;
-height: auto;
-max-height: 80vh;
-object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
 }
 
 .heroimg .krovnalogo {
@@ -157,6 +162,120 @@ object-fit: cover;
     align-items: flex-start;
     justify-self: center;
     align-self: center;
+}
+
+.wrapper {
+    background-color: var(--black);
+    margin-top: 56px;
+    margin-bottom: 28px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    display: inline-block;
+    margin: 0.3125rem;
+    width: 5rem;
+    height: 6.5625rem;
+    position: relative;
+}
+
+.number__line {
+    background: #EF1D23;
+    display: block;
+    position: relative;
+    opacity: 0.1;
+    transition: opacity 0.2s ease;
+    width: 3.125rem;
+    height: 0.625rem;
+    position: absolute;
+}
+
+.number__line.on {
+    opacity: 1;
+}
+
+.number__line:before, .number__line:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+}
+
+.number__line--horizontal {
+    height: 0.625rem;
+    width: 3.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.number__line--horizontal:before {
+    border-width: 0.3125rem 0.3125rem 0.3125rem 0;
+    border-color: transparent #EF1D23 transparent transparent;
+    right: 100%;
+}
+
+.number__line--horizontal:after {
+    border-width: 0.3125rem 0 0.3125rem 0.3125rem;
+    border-color: transparent transparent transparent #EF1D23;
+    left: 100%;
+}
+
+.number__line--vertical {
+    height: 2.5rem;
+    width: 0.625rem;
+}
+
+.number__line--vertical:before {
+    border-width: 0 0.3125rem 0.3125rem 0.3125rem;
+    border-color: transparent transparent #EF1D23 transparent;
+    bottom: 100%;
+}
+
+.number__line--vertical:after {
+    border-width: 0.3125rem 0.3125rem 0 0.3125rem;
+    border-color: #EF1D23 transparent transparent transparent;
+    top: 100%;
+}
+
+.number__line--top {
+    transform: translateY(-50%) translateX(-50%);
+    top: 0;
+}
+
+.number__line--center {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.number__line--bottom {
+    transform: translateY(50%) translateX(-50%);
+    bottom: 0;
+}
+
+.number__line--top-left {
+    top: 0.3125rem;
+    left: 0;
+}
+
+.number__line--top-right {
+    top: 0.3125rem;
+    right: 0;
+}
+
+.number__line--bottom-left {
+    bottom: 0.3125rem;
+    left: 0;
+}
+
+.number__line--bottom-right {
+    bottom: 0.3125rem;
+    right: 0;
 }
 
     /* Team Page CSS */
@@ -228,7 +347,7 @@ object-fit: cover;
     z-index: 1;
 }
 
-.downloadheroimg p {
+.downloadheroimg h3 {
     max-width: 800px;
     color: var(--black);
 }
