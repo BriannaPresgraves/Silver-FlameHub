@@ -88,7 +88,7 @@ p {
     color: var(--offwhite);
 }
 
-button {
+button, a.download-btn {
     background-color: var(--darkgold);
     color: var(--black);
     border: none;
@@ -97,7 +97,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover, a.download-btn:hover {
     background-color: #D4AF37;
     color: var(--black);
 }
@@ -354,6 +354,7 @@ footer {
     justify-content: center;
 }
 
-.download button {
+.download button, .download a {
     min-width: 180px;
+    text-decoration: none;
 }
