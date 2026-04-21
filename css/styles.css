@@ -306,6 +306,7 @@ footer {
 .membercard {
     text-align: center;
     padding: 20px;
+    background-color: var(--black);
 }
 
 .membercard h2 {
