@@ -310,7 +310,7 @@ footer {
     background-color: var(--black);
     border-radius: 16px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid var(--darkgold);
+    border: 2px solid var(--darkgold);
 }
 
 .membercard:hover {
