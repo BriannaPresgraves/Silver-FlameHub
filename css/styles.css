@@ -88,16 +88,17 @@ p {
     color: var(--offwhite);
 }
 
-button, a.download-btn {
+a.Team-btn, a.download-btn {
     background-color: var(--darkgold);
     color: var(--black);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-button:hover, a.download-btn:hover {
+a.Team-btn:hover, a.download-btn:hover {
     background-color: #D4AF37;
     color: var(--black);
 }
@@ -326,6 +327,12 @@ footer {
 .membercard h3 {
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+.membercard-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
     /* Download Page CSS */
