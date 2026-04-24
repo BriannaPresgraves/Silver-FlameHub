@@ -354,6 +354,7 @@ footer {
 .membercard:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
+    cursor: pointer;
 }
 
 .membercard h2 {
@@ -373,14 +374,18 @@ footer {
 }
 
 .person-profile {
-  min-height: 100vh;
-  padding: 64px 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  min-height: 100vh;
+  padding: 80px;
   gap: 80px;
-  background-color: var(--darkpurple);
-  color: var(--offwhite);
+}
+
+.person-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #person-photo {
