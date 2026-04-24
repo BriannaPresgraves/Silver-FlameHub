@@ -72,7 +72,7 @@ chase: {
   livy: {
     photo: "Livy.png",
     name: "Livy Guard",
-    title: "Role",
+    title: "Bot Wrangler",
     bio: ["Hi, I'm Livy! I'm a 22 year old artist from the US who specializes in making 2D animated art. I have a passion for bringing creative ideas to life and I love making new friends ♡"],
     links: [
       { text: "Portfolio", url: "https://thecandiebox.com/" },
