@@ -88,7 +88,7 @@ p {
     color: var(--offwhite);
 }
 
-a.Team-btn, a.download-btn {
+a.Team-btn, a.download-btn, #person-links a {
     background-color: var(--darkgold);
     color: var(--black);
     border: none;
@@ -98,7 +98,7 @@ a.Team-btn, a.download-btn {
     text-decoration: none;
 }
 
-a.Team-btn:hover, a.download-btn:hover {
+a.Team-btn:hover, a.download-btn:hover, #person-links a:hover {
     background-color: #D4AF37;
     color: var(--black);
 }
@@ -370,6 +370,49 @@ footer {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+
+.person-profile {
+  min-height: 100vh;
+  padding: 64px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 80px;
+  background-color: var(--darkpurple);
+  color: var(--offwhite);
+}
+
+#person-photo {
+    text-align: center;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+#person-name {
+  font-size: 48px;
+  margin-bottom: 24px;
+  color: var(--offwhite);
+}
+
+#person-title {
+  margin-bottom: 28px;
+}
+
+#person-bio {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 720px;
+  margin-bottom: 32px;
+  color: var(--offwhite);
+}
+
+#person-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
     /* Download Page CSS */
