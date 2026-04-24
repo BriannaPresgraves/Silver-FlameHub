@@ -169,11 +169,17 @@ footer {
 
 .carousel-section {
     margin-bottom: 56px;
+    text-align: center;
 }
 
 .carousel-section h1 {
     text-align: center;
     margin-bottom: 25px;
+}
+
+.carousel-inner img {
+    max-width: 800px;
+    margin: 0 auto;   
 }
 
 .carousel-text {
