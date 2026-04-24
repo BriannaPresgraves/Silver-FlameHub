@@ -638,3 +638,174 @@ footer {
     font-size: 14px;
   }
 }
+
+/* Tablet */
+@media (max-width: 900px) {
+    .wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .number {
+        width: 4rem;
+        height: 5.5rem;
+    }
+
+    .number__line--horizontal {
+        width: 2.5rem;
+        height: 0.5rem;
+    }
+
+    .number__line--vertical {
+        height: 2rem;
+        width: 0.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .wrapper {
+        flex-wrap: wrap; /* prevents overflow */
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .number {
+        width: 3rem;
+        height: 4.5rem;
+        margin: 0.2rem;
+    }
+
+    .number__line--horizontal {
+        width: 2rem;
+        height: 0.4rem;
+    }
+
+    .number__line--vertical {
+        height: 1.6rem;
+        width: 0.4rem;
+    }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    .number {
+        width: 2.5rem;
+        height: 4rem;
+    }
+
+    .number__line--horizontal {
+        width: 1.6rem;
+    }
+
+    .number__line--vertical {
+        height: 1.4rem;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .trailer {
+        grid-template-columns: 1fr; /* stack */
+        gap: 30px;
+        margin-left: 24px;
+        margin-right: 24px;
+        text-align: center;
+    }
+
+    .trailer img {
+        max-width: 500px;
+        margin: 0 auto; /* center image */
+    }
+
+    .trailercontent {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .trailer {
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 24px;
+    }
+
+    .trailer img {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .trailercontent {
+        padding: 10px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    .trailer {
+        gap: 16px;
+    }
+
+    .trailercontent {
+        padding: 5px;
+    }
+}
