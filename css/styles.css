@@ -25,6 +25,18 @@ body {
     background-color: var(--darkpurple);
 }
 
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* controls space between logos */
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+}
+
 .navbar {
     color: var(--offwhite);
     margin-top: 0%;
@@ -47,7 +59,6 @@ body {
     padding-bottom: 10px;
     height: 80px;
     width: auto;
-    margin-left: -720px;
 }
 
 .nav {
@@ -460,4 +471,81 @@ footer {
 .download button, .download a {
     min-width: 180px;
     text-decoration: none;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .navbar {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .teamlogo {
+        height: 100px;
+    }
+
+    .teamtextlogo {
+        height: 65px;
+    }
+
+    .nav {
+        gap: 40px;
+        font-size: 18px;
+        padding-right: 0;
+    }
+}
+
+/* Small tablet */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    .logo-group {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .teamlogo {
+        height: 85px;
+    }
+
+    .teamtextlogo {
+        height: 55px;
+    }
+
+    .nav {
+        gap: 30px;
+        font-size: 17px;
+        padding-right: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 16px;
+    }
+
+    .logo-group {
+        gap: 8px;
+    }
+
+    .teamlogo {
+        height: 65px;
+    }
+
+    .teamtextlogo {
+        height: 42px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 18px;
+        font-size: 15px;
+    }
 }

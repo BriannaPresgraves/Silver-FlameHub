@@ -5,7 +5,7 @@ function goToPerson(id) {
 const people = {
 chuanhui: {
     photo: "Chuanhui.png",
-    name: "Chuanhui Pan",
+    name: "Chuanhui Yan",
     title: "Producer",
     bio: [
       "As a producer, I was responsible for planning and coordinating the team’s workflow to keep development on track. I helped break down tasks, adjust scope when needed, and ran meetings such as stand-ups, check-ins, and playtest reviews. I acted as a bridge between the programming and art teams, making sure priorities, dependencies, and expectations were clear. I also tracked progress and helped resolve issues during development, including adapting plans when assets or code were missing or not functioning. In addition, I supported implementation by placing assets into the Unity engine to build out scenes, assisted with bug identification through playtesting, and organized playtests while collecting and distributing feedback to the team.",
@@ -41,7 +41,7 @@ chase: {
     photo: "Cat.png",
     name: "John Guilfoyle",
     title: "Art Lead",
-    bio: ["As Art Lead on KROVNA, a Russian folklore horror game developed by a 14-person team, I oversaw the visual direction and 3D art pipeline from concept through final delivery. My work spanned environment art, texture creation in Substance Painter, and Unity integration, and diegetic horror soundscape design. I coordinated art production across the team while maintaining a cohesive visual identity rooted in Slavic folklore and atmospheric horror."],
+    bio: ["As Art Lead on KROVNA, a Russian folklore horror game developed by a 15-person team, I oversaw the visual direction and 3D art pipeline from concept through final delivery. My work spanned environment art, texture creation in Substance Painter, and Unity integration, and diegetic horror soundscape design. I coordinated art production across the team while maintaining a cohesive visual identity rooted in Slavic folklore and atmospheric horror."],
     links: [
       { text: "Portfolio", url: "https://www.artstation.com/johnguilfoyle4" },
       { text: "LinkedIn", url: "https://www.linkedin.com/in/john-guilfoyle/" }
