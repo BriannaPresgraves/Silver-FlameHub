@@ -112,7 +112,7 @@ chase: {
   },
 
   anakin: {
-    photo: "Cat.png",
+    photo: "Anakin.png",
     name: "Anakin Rosales",
     title: "Narrative Designer",
     bio: ["bio"],
