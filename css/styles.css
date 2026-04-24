@@ -480,6 +480,14 @@ footer {
         padding-right: 24px;
     }
 
+    .logo-group {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* keeps centered */
+        flex-direction: row; /* forces side-by-side */
+        gap: 16px;
+    }
+
     .teamlogo {
         height: 100px;
     }
@@ -499,14 +507,19 @@ footer {
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
+        align-items: center; /* center everything */
         justify-content: center;
-        gap: 10px;
+        gap: 12px;
         padding: 10px 20px;
     }
 
     .logo-group {
+        display: flex;
+        flex-direction: row; /* KEEP THEM NEXT TO EACH OTHER */
+        align-items: center;
         justify-content: center;
         gap: 12px;
+        width: 100%;
     }
 
     .teamlogo {
@@ -518,6 +531,8 @@ footer {
     }
 
     .nav {
+        display: flex;
+        justify-content: center;
         gap: 30px;
         font-size: 17px;
         padding-right: 0;
@@ -528,10 +543,16 @@ footer {
 @media (max-width: 480px) {
     .navbar {
         padding: 10px 16px;
+        align-items: center;
     }
 
     .logo-group {
+        display: flex;
+        flex-direction: row; /* prevents stacking */
+        align-items: center;
+        justify-content: center;
         gap: 8px;
+        width: 100%;
     }
 
     .teamlogo {
@@ -547,6 +568,38 @@ footer {
         justify-content: center;
         gap: 18px;
         font-size: 15px;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 375px) {
+    .navbar {
+        padding: 8px 10px;
+        align-items: center;
+    }
+
+    .logo-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        width: 100%;
+    }
+
+    .teamlogo {
+        height: 55px;
+    }
+
+    .teamtextlogo {
+        height: 36px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        font-size: 14px;
     }
 }
 
@@ -807,5 +860,70 @@ footer {
 
     .trailercontent {
         padding: 5px;
+    }
+}
+
+/* Large tablets / small laptops */
+@media (max-width: 1200px) {
+    .teammembers {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .teammembers {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .teammembers img {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .teammembers {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .membercard {
+        padding: 16px;
+    }
+
+    .teammembers img {
+        max-width: 240px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    .teammembers {
+        margin-left: 12px;
+        margin-right: 12px;
+        gap: 20px;
+    }
+
+    .membercard {
+        padding: 12px;
+    }
+
+    .membercard-actions {
+        flex-direction: column; /* stack buttons if needed */
+        gap: 10px;
+    }
+
+    .teammembers img {
+        max-width: 200px;
     }
 }
