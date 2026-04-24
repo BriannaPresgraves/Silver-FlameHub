@@ -142,6 +142,8 @@ a:hover {
 
 .logo-grid {
   grid-template-columns: minmax(0, 2fr) minmax(220px, 1fr);
+  background-color: var(--muted);
+  border-radius: 10px;
 }
 
 .fact-block,
