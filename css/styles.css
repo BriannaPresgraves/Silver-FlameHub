@@ -561,6 +561,7 @@ footer {
 
     .teamtextlogo {
         height: 42px;
+        display: none;
     }
 
     .nav {
@@ -925,6 +926,24 @@ footer {
 
     .teammembers img {
         max-width: 200px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    .teammembers {
+        margin-left: 12px;
+        margin-right: 12px;
+        gap: 20px;
+    }
+
+    .membercard {
+        padding: 12px;
+    }
+
+    .membercard-actions {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
