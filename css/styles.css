@@ -92,11 +92,13 @@ h2 {
 h3 {
     font-size: 20px;
     color: var(--offwhite);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     font-size: 16px;
     color: var(--offwhite);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a.Team-btn, a.download-btn, #person-links a {
