@@ -115,10 +115,10 @@ chase: {
     photo: "Anakin.png",
     name: "Anakin Rosales",
     title: "Narrative Designer",
-    bio: ["bio"],
+    bio: ["I'm a Narrative Designer and Writer for Kronva working on the overall story for the team. I wrote dialogue to help players immerse themselves into the story of the game while guiding them by providing detailed lore that kept the story mystifying. I even assisted in helping write important key items such as lore artifacts and unique descriptions to help players become more intrigued in the story as they progressed through the game to keep it mysterious as possible."],
     links: [
-      { text: "Portfolio", url: "" },
-      { text: "LinkedIn", url: "" }
+      { text: "Portfolio", url: "https://anakinrosales9.wixsite.com/portfolio" },
+      { text: "LinkedIn", url: "https://www.linkedin.com/in/anakin-rosales/" }
     ]
   },
 
