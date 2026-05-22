@@ -610,8 +610,9 @@ p {
     text-align: center;
 }
 
-.trailer img {
+.trailer iframe {
     max-width: 500px;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -782,7 +783,7 @@ p {
     gap: 24px;
 }
 
-.trailer img {
+.trailer iframe {
     max-width: 100%;
     padding: 10px;
 }
@@ -1013,6 +1014,10 @@ p {
 .membercard-actions {
     flex-direction: column;
     gap: 10px;
+}
+
+.trailer iframe {
+    height: auto;
 }
 }
 
