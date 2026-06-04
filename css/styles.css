@@ -128,6 +128,10 @@ footer {
     margin-top: 35px;
 }
 
+footer p {
+    font-size: 13px;
+}
+
     /* Index Page CSS */
 
 .heroimg {
@@ -187,7 +191,7 @@ footer {
 }
 
 .carousel-section {
-    margin-bottom: 56px;
+    margin-bottom: 64px;
     text-align: center;
 }
 
